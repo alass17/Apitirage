@@ -3,6 +3,8 @@ package com.apitirage.ApiTirage;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
+
 @SpringBootApplication
 public class ApiTirageApplication {
 
@@ -10,4 +12,6 @@ public class ApiTirageApplication {
 		SpringApplication.run(ApiTirageApplication.class, args);
 	}
 
-}
+
+	}
+

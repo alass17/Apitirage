@@ -11,9 +11,13 @@ import javax.persistence.*;
 @Getter
 @Setter
 @NoArgsConstructor
+
 public class Tirage {
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
         private Long id_tirage;
+        private Long date;
         private String libelle;
+        private Long nbre_postulant;
+        private Long nombre;
 }
