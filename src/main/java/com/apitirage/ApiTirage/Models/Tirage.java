@@ -19,8 +19,8 @@ public class Tirage {
         private Long id_tirage;
         private Long date;
         private String libelle;
-        private Long nbre_postulant;
-        private Long nombre;
+        private Long nbre_a_tire;
+
 
 
     @ManyToMany
