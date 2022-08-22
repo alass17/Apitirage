@@ -22,4 +22,8 @@ public class Postulant {
     private String prenom;
     private String numero;
     private String email;
+
+    @ManyToOne
+    @JoinColumn(name = "Liste_id_post")
+    private Liste_Post liste_post;
 }
