@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.util.Set;
 
 @Getter
 @Setter
@@ -26,4 +27,8 @@ public class Postulant {
     @ManyToOne
     @JoinColumn(name = "Liste_id_post")
     private Liste_Post liste_post;
+
+    @ManyToMany(mappedBy = "likedCourses")
+    Set<Tirage> likes;
+
 }
